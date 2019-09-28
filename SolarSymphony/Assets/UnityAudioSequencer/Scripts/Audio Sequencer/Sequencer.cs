@@ -799,7 +799,11 @@ internal class Sequencer : SequencerBase
                         if (onBeat != null)
                         {
                             if (_onBeatEventQueue == null) _onBeatEventQueue = new Queue<Action>();
-                            _onBeatEventQueue.Enqueue(() => onBeat(_currentStep, NumberOfSteps));
+                            _onBeatEventQueue.Enqueue(() =>
+                            {
+                                onBeat(_currentStep, NumberOfSteps);
+                                Debug.Log("beat");
+                            });
                         }
                     }
                     else
