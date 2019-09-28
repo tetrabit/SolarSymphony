@@ -512,6 +512,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth
       objectReference: {fileID: 0}
+    - target: {fileID: 3944822089789178989, guid: f84bb1edb9ef6774f9739e168c281216,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3944822089789178986, guid: f84bb1edb9ef6774f9739e168c281216,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,6 +636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944822089021684353, guid: f84bb1edb9ef6774f9739e168c281216,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3944822089021684473, guid: f84bb1edb9ef6774f9739e168c281216,
         type: 3}
@@ -922,6 +932,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 4001349207734289558, guid: ff02f02bd3eaa944694f110e96acd581,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff02f02bd3eaa944694f110e96acd581, type: 3}
 --- !u!1 &856383026 stripped
@@ -963,6 +978,18 @@ MonoBehaviour:
   maxY: 45
   sensX: 100
   sensY: 100
+--- !u!114 &856383029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856383026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f7ed4c7e5acd94aaae82d150529c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1072384994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,6 +1429,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 28d7cd6a6617d46e5a7d3eeb5d314a91, type: 2}
+    - target: {fileID: 1720138772015743718, guid: 431e2305fd7f1e941bb1fd4c15261986,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 431e2305fd7f1e941bb1fd4c15261986, type: 3}
 --- !u!1001 &1299485780
