@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
-public class Note : MonoBehaviour
+[Serializable]
+public class Note
 {
     [SerializeField]
     private Sound _sound;

@@ -19,4 +19,9 @@ public class AudioController : MonoBehaviour
     {
         AudioSource.PlayOneShot(audioClip);
     }
+
+    public void Play(Sound sound)
+    {
+        AudioSource.PlayOneShot(SolarSymphony.Instance.SoundLibrary.Library[sound]);
+    }
 }
