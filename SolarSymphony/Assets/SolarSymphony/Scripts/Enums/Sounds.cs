@@ -1,0 +1,20 @@
+﻿public enum Sound
+{
+    None,
+    A,
+    B,
+    C,
+    D,
+    E,
+    F,
+    G,
+    BassDrum,
+    SnareDrum,
+    HighTom,
+    MidTom,
+    FloorTom,
+    HiHatOpen,
+    HiHatClosed,
+    CrashCymbal,
+    RideCymbal
+}
