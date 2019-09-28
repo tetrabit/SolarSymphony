@@ -40,7 +40,7 @@ using UnityEditor;
 
 #endif
 
-public class SequencerGroup : SequencerBase
+public class SequencerGroup :  SequencerBase
 {
     #region Fields
 

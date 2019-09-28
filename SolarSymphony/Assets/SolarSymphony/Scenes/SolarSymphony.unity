@@ -3384,7 +3384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc75dd5ce72784244bb7ab97f7143bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playWhenReady: 0
+  playWhenReady: 1
   bpm: 120
   log: 0
   isMuted: 0
