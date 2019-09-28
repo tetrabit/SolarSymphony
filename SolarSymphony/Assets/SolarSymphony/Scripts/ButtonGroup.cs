@@ -67,6 +67,46 @@ public class ButtonGroup : MonoBehaviour
         {
             ToggleValueChanged(Toggles[7], 7);
         });
+
+        Toggles[8].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[8], 8);
+        });
+
+        Toggles[9].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[9], 9);
+        });
+
+        Toggles[10].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[10], 10);
+        });
+
+        Toggles[11].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[11], 11);
+        });
+
+        Toggles[12].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[12], 12);
+        });
+
+        Toggles[13].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[13], 13);
+        });
+
+        Toggles[14].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[14], 14);
+        });
+
+        Toggles[15].onValueChanged.AddListener(delegate
+        {
+            ToggleValueChanged(Toggles[15], 15);
+        });
     }
 
     private void ToggleValueChanged(Toggle change, int iterator)
