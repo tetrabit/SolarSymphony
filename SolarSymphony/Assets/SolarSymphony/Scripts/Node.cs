@@ -12,13 +12,18 @@ public class Node : MonoBehaviour
     /// 
     /// </summary>
     [SerializeField]
-    private bool _filled;
+    private bool _active;
     [SerializeField]
     private Note _note;
-    [SerializeField]
-    private CircleCollider2D _dropCollider;
+    //[SerializeField]
+    //private CircleCollider2D _dropCollider;
 
-    public bool Filled { get => _filled; set => _filled = value; }
+    public bool Active { get => _active; set => _active = value; }
     public Note Note { get => _note; set => _note = value; }
-    public CircleCollider2D Collider { get => _dropCollider; set => _dropCollider = value; }
+    //public CircleCollider2D Collider { get => _dropCollider; set => _dropCollider = value; }
+
+    public void Play()
+    {
+        SolarSymphony.Instance.AudioController.Play(SolarSymphony.Instance.SoundLibrary.Library[Note.Sound]);
+    }
 }
