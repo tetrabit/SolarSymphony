@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class CameraMovement : MonoBehaviour
 {
 
-  private float speed = 5.0f;
-  private float zoomSpeed = 5.0f;
+  private float speed = 300.0f;
+  private float zoomSpeed = 100.0f;
 
   public float minX = -360.0f;
   public float maxX = 360.0f;
@@ -43,13 +43,13 @@ public class CameraMovement : MonoBehaviour
       transform.position += Vector3.back * speed * Time.deltaTime;
     }
 
-    if (Input.GetMouseButton(0))
-    {
-      rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
-      rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
-      rotationY = Mathf.Clamp(rotationY, minY, maxY);
-      transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
-    }
+    //if (Input.GetMouseButton(0))
+    //{
+    //  rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
+    //  rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
+    //  rotationY = Mathf.Clamp(rotationY, minY, maxY);
+    //  transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+    //}
   }
 
 }
