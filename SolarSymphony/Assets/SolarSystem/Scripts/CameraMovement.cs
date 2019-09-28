@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CameraMovement : MonoBehaviour
 {
 
-  private float speed = 100.0f;
-  private float zoomSpeed = 100.0f;
+  private float speed = 5.0f;
+  private float zoomSpeed = 5.0f;
 
   public float minX = -360.0f;
   public float maxX = 360.0f;
