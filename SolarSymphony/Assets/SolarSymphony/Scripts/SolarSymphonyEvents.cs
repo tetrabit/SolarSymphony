@@ -18,7 +18,8 @@ public class SolarSymphonyEvents
 
     public void PlanetTrigger(Planet planet)
     {
-        UnityEngine.Debug.Log(planet);
+        //UnityEngine.Debug.Log(planet);
         //SolarSymphony.Instance.AudioController.Play(sound);
+        SolarSymphony.Instance.PlanetHaloControl.TriggerHaloEffect(planet);
     }
 }
