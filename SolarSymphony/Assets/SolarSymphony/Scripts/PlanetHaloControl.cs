@@ -58,11 +58,11 @@ public class PlanetHaloControl : MonoBehaviour
         {
             if(PlanetLights[i].Planet == planet)
             {
-                SerializedObject halo = new SerializedObject(PlanetLight[i].GetComponent("Halo"));
-                halo.FindProperty("m_Size").floatValue = 40;
+                //SerializedObject halo = new SerializedObject(PlanetLight[i].GetComponent("Halo"));
+                //halo.FindProperty("m_Size").floatValue = 40;
                 //halo.FindProperty("m_Enabled").boolValue = _isEnabled;
                 //halo.FindProperty("m_Color").colorValue = _color;
-                halo.ApplyModifiedProperties();
+                //halo.ApplyModifiedProperties();
                 PlanetLights[i].TriggerLightEffect();
             }
 
