@@ -1,19 +1,24 @@
-﻿using UnityEngine.Events;
+﻿using System;
+using UnityEngine.Events;
 
-public class TriggerSoundEvent : UnityEvent<Sound, Planet> { }
+public class TriggerSoundEvent : UnityEvent<Planet> { }
 
 public class SolarSymphonyEvents
 {
     private TriggerSoundEvent _triggerSound;
 
+    public TriggerSoundEvent TriggerSound { get => _triggerSound; set => _triggerSound = value; }
+    
     public SolarSymphonyEvents()
     {
-        _triggerSound = new TriggerSoundEvent();
-        _triggerSound.AddListener(TriggerSound);
+        TriggerSound = new TriggerSoundEvent();
+        TriggerSound.AddListener(PlanetTrigger);
     }
 
-    public void TriggerSound(Sound sound, Planet planet)
+
+    public void PlanetTrigger(Planet planet)
     {
-        SolarSymphony.Instance.AudioController.Play(sound);
+        UnityEngine.Debug.Log(planet);
+        //SolarSymphony.Instance.AudioController.Play(sound);
     }
 }

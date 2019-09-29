@@ -39,6 +39,7 @@ public class SolarSymphony : MonoBehaviour
     {
         SoundLibrary = new SoundLibrary();
         AudioController = FindObjectOfType<AudioController>();
+        SolarSymphonyEvents = new SolarSymphonyEvents();
         SequencerDriver = FindObjectOfType<SequencerDriver>();
     }
 }
