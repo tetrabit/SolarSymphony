@@ -19879,7 +19879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1408377007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23116,9 +23116,14 @@ PrefabInstance:
       objectReference: {fileID: 1841169342}
     - target: {fileID: 154380, guid: 8c8a8f77e8699403ab6c0d4b8fe24c16, type: 3}
       propertyPath: m_Name
-      value: Camera2
+      value: Projection Camera
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2080024, guid: 8c8a8f77e8699403ab6c0d4b8fe24c16, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8129206, guid: 8c8a8f77e8699403ab6c0d4b8fe24c16, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8c8a8f77e8699403ab6c0d4b8fe24c16, type: 3}
 --- !u!114 &1550789758 stripped
 MonoBehaviour:
@@ -31649,7 +31654,7 @@ GameObject:
   - component: {fileID: 2008541538}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
