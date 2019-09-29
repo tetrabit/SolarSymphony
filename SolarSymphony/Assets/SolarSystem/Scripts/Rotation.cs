@@ -20,3 +20,13 @@ public class Rotation : MonoBehaviour
   }
 
 }
+
+
+public class PlanetEffects : MonoBehaviour
+{
+    public void BlinkPlanet()
+    {
+
+        gameObject.GetComponent<Renderer>().material.SetColor("_EMISSION", new Color(0.0927F, 0.4852F, 0.2416F, 0.42F));
+    }
+}
