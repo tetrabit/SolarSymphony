@@ -49,7 +49,6 @@ public class PlanetHaloControl : MonoBehaviour
             TriggerHaloEffect(Planet.Saturn);
             TriggerHaloEffect(Planet.Uranus);
             TriggerHaloEffect(Planet.Neptune);
-
         }
     }
 

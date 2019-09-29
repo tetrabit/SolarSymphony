@@ -410,14 +410,14 @@ MonoBehaviour:
   - {fileID: 839021917}
   - {fileID: 212071072}
   _planetLights:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 390464606}
+  - {fileID: 1237477064}
+  - {fileID: 183782970}
+  - {fileID: 564430384}
+  - {fileID: 1794022582}
+  - {fileID: 1290826308}
+  - {fileID: 839021921}
+  - {fileID: 212071076}
   _size: 8
 --- !u!4 &192307549
 Transform:
@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 212071073}
   - component: {fileID: 212071075}
   - component: {fileID: 212071074}
+  - component: {fileID: 212071076}
   m_Layer: 0
   m_Name: Spot Light7
   m_TagString: Untagged
@@ -537,6 +538,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &212071076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212071072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6c8e3cddd960641a0f75986e901dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planet: 7
 --- !u!1001 &222524666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,6 +1677,7 @@ GameObject:
   - component: {fileID: 839021918}
   - component: {fileID: 839021920}
   - component: {fileID: 839021919}
+  - component: {fileID: 839021921}
   m_Layer: 0
   m_Name: Spot Light6
   m_TagString: Untagged
@@ -1756,6 +1771,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &839021921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839021917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6c8e3cddd960641a0f75986e901dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planet: 6
 --- !u!1 &856383026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 120082, guid: 8c8a8f77e8699403ab6c0d4b8fe24c16,
@@ -2221,6 +2249,7 @@ GameObject:
   - component: {fileID: 1237477061}
   - component: {fileID: 1237477063}
   - component: {fileID: 1237477062}
+  - component: {fileID: 1237477064}
   m_Layer: 0
   m_Name: Spot Light1
   m_TagString: Untagged
@@ -2314,6 +2343,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1237477064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237477060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6c8e3cddd960641a0f75986e901dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planet: 1
 --- !u!1001 &1241245817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2464,6 +2506,7 @@ GameObject:
   - component: {fileID: 1290826307}
   - component: {fileID: 1290826306}
   - component: {fileID: 1290826305}
+  - component: {fileID: 1290826308}
   m_Layer: 0
   m_Name: Spot Light5
   m_TagString: Untagged
@@ -2557,6 +2600,19 @@ Transform:
   m_Father: {fileID: 107502413}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1290826308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290826304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6c8e3cddd960641a0f75986e901dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planet: 5
 --- !u!1001 &1299485780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3113,6 +3169,7 @@ GameObject:
   - component: {fileID: 1794022579}
   - component: {fileID: 1794022581}
   - component: {fileID: 1794022580}
+  - component: {fileID: 1794022582}
   m_Layer: 0
   m_Name: Spot Light4
   m_TagString: Untagged
@@ -3206,6 +3263,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1794022582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794022578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6c8e3cddd960641a0f75986e901dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planet: 4
 --- !u!1001 &1830149804
 PrefabInstance:
   m_ObjectHideFlags: 0
