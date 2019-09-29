@@ -19,6 +19,7 @@ public class MenuButtons : MonoBehaviour
         _switchScene = true;
     }
 
+
     public void QuitGame()
     {
         Debug.Log("Quit!");
@@ -30,7 +31,14 @@ public class MenuButtons : MonoBehaviour
     public void CreditsLoad()
     {
         animator.SetTrigger("fade_out");
-        _sceneToSwitch = "CreditScreen";
+        _sceneToSwitch = "CreditsScreen";
+        _switchScene = true;
+    }
+
+    public void StartLoad()
+    {
+        animator.SetTrigger("fade_out");
+        _sceneToSwitch = "TitleScreen";
         _switchScene = true;
     }
 
@@ -47,6 +55,7 @@ public class MenuButtons : MonoBehaviour
 
     private void TransitionScene(string scene)
     {
+        _time = 0;
         SceneManager.LoadScene(scene);
     }
 
