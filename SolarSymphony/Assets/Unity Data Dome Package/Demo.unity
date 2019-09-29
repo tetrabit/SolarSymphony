@@ -1761,6 +1761,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 28d7cd6a6617d46e5a7d3eeb5d314a91, type: 2}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Emitting
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d00bbbb756333db4ab35ab5cd9946336, type: 3}
 --- !u!1 &1579099131
@@ -1840,12 +1870,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645329421}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43d33e7233b184278a643d92d6e1dbc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 35
+  Speed: 1
 --- !u!1 &1720211498
 GameObject:
   m_ObjectHideFlags: 0
