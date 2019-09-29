@@ -16,5 +16,6 @@
     HiHatOpen,
     HiHatClosed,
     CrashCymbal,
-    RideCymbal
+    RideCymbal,
+    C2
 }
