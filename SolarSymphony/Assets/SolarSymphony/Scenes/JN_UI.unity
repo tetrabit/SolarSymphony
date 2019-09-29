@@ -9200,6 +9200,11 @@ PrefabInstance:
       propertyPath: sequence.Array.size
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919702577099079, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a979c1a3ace511a4392b9cba5c5041e4, type: 3}
     - target: {fileID: 8758919702577099073, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: _toggles.Array.size
@@ -9295,6 +9300,11 @@ PrefabInstance:
       propertyPath: planet
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919702691629944, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 22a6132f486755c4eb60b615b8e8d1b6, type: 3}
     - target: {fileID: 8758919702691629946, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: _toggles.Array.size
@@ -9390,6 +9400,11 @@ PrefabInstance:
       propertyPath: planet
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919704061404665, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: faf2ed7858ced8f45b176f99aeb96c16, type: 3}
     - target: {fileID: 8758919704433734084, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: sequence.Array.size
@@ -9400,6 +9415,11 @@ PrefabInstance:
       propertyPath: planet
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919704433734084, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7cf5ce8a1ad71974ba66e12be2c47ae9, type: 3}
     - target: {fileID: 8758919702777339293, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: sequence.Array.size
@@ -9410,6 +9430,11 @@ PrefabInstance:
       propertyPath: planet
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919702777339293, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e6f12c3c1d53cc45bb8b8ffc1a8acd8, type: 3}
     - target: {fileID: 8758919704372863265, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: sequence.Array.size
@@ -9420,6 +9445,11 @@ PrefabInstance:
       propertyPath: planet
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919704372863265, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c2e4fd175effeee40838b69c9ce60447, type: 3}
     - target: {fileID: 8758919703198520412, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: sequence.Array.size
@@ -9430,6 +9460,11 @@ PrefabInstance:
       propertyPath: planet
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8758919703198520412, guid: 36777e419dd387a4cbe065a2b370d992,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d928fb09b2e0adc4ba40bfb2e0ab8fbb, type: 3}
     - target: {fileID: 8758919703851775073, guid: 36777e419dd387a4cbe065a2b370d992,
         type: 3}
       propertyPath: sequence.Array.size
