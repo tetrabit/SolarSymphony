@@ -21,36 +21,35 @@ public class PlanetHaloControl : MonoBehaviour
 
     void Start()
     {
-        numPlanets = PlanetLights.Length;
-        // x = PlanetLight[numPlanets].GetComponent("Halo");
-        //PlanetLight[numPlanets].GetComponent("Halo"). = false;
-        for(int x = 0; x < PlanetLights.Length; x++ )
-        {
-            SerializedObject halo = new SerializedObject(PlanetLight[x].GetComponent("Halo"));
-            halo.FindProperty("m_Size").floatValue =100;
-            //halo.FindProperty("m_Enabled").boolValue = _isEnabled;
-            //halo.FindProperty("m_Color").colorValue = _color;
-            halo.ApplyModifiedProperties();
+        //numPlanets = PlanetLights.Length;
 
+        //for(int x = 0; x < PlanetLights.Length; x++ )
+        //{
+        //    SerializedObject halo = new SerializedObject(PlanetLight[x].GetComponent("Halo"));
+        //    halo.FindProperty("m_Size").floatValue =100;
+        //    //halo.FindProperty("m_Enabled").boolValue = _isEnabled;
+        //    //halo.FindProperty("m_Color").colorValue = _color;
+        //    halo.ApplyModifiedProperties();
 
-
-            //PlanetLight[numPlanets].GetComponent<Light>().GetComponent<Halo>().getPr
-
-            //Component halo = PlanetLight[x].GetComponent("Halo");
-            //halo.GetType().GetProperty("Size").SetValue(halo, 1000);
-            //Debug.Log(halo.GetType());
-            //Debug.Log(halo.GetType().GetProperty("Size"));
-            //SolarSymphony.Instance.SolarSymphonyEvents.PlanetTrigger(Planet.Earth);
-        }
+        //}
         
-
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+
+            TriggerHaloEffect(Planet.Mercury);
+            TriggerHaloEffect(Planet.Venus);
+            TriggerHaloEffect(Planet.Earth);
+            TriggerHaloEffect(Planet.Mars);
+            TriggerHaloEffect(Planet.Jupiter);
+            TriggerHaloEffect(Planet.Saturn);
+            TriggerHaloEffect(Planet.Uranus);
+            TriggerHaloEffect(Planet.Neptune);
+        }
     }
 
     public void TriggerHaloEffect(Planet planet)
@@ -59,13 +58,19 @@ public class PlanetHaloControl : MonoBehaviour
         {
             if(PlanetLights[i].Planet == planet)
             {
-                //make light effect happen here
+                SerializedObject halo = new SerializedObject(PlanetLight[i].GetComponent("Halo"));
+                halo.FindProperty("m_Size").floatValue = 40;
+                //halo.FindProperty("m_Enabled").boolValue = _isEnabled;
+                //halo.FindProperty("m_Color").colorValue = _color;
+                halo.ApplyModifiedProperties();
+                PlanetLights[i].TriggerLightEffect();
             }
 
         }
+
     }
     
-    void PlayPlanetSound(int planet)
+    void PlayPlanetSound(Planet planet)
     {
 
     }
