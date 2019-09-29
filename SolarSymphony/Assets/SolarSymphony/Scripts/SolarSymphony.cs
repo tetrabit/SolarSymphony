@@ -14,12 +14,15 @@ public class SolarSymphony : MonoBehaviour
     private SolarSymphonyEvents _solarSymphonyEvents;
     [SerializeField]
     private SequencerDriver _sequencerDriver;
+    [SerializeField]
+    private PlanetHaloControl _planetHaloControl;
 
     public static SolarSymphony Instance { get => _instance; private set => _instance = value; }
     public SoundLibrary SoundLibrary { get => _soundLibrary; private set => _soundLibrary = value; }
     public AudioController AudioController { get => _audioController; private set => _audioController = value; }
     public SolarSymphonyEvents SolarSymphonyEvents { get => _solarSymphonyEvents; set => _solarSymphonyEvents = value; }
     internal SequencerDriver SequencerDriver { get => _sequencerDriver; set => _sequencerDriver = value; }
+    public PlanetHaloControl PlanetHaloControl { get => _planetHaloControl; set => _planetHaloControl = value; }
 
     private void Awake()
     {
@@ -41,6 +44,7 @@ public class SolarSymphony : MonoBehaviour
         AudioController = FindObjectOfType<AudioController>();
         SolarSymphonyEvents = new SolarSymphonyEvents();
         SequencerDriver = FindObjectOfType<SequencerDriver>();
+        PlanetHaloControl = FindObjectOfType<PlanetHaloControl>();
     }
 }
 
