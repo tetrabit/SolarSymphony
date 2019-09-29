@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06999346, g: 0.06473734, b: 0.06440879, a: 1}
+  m_IndirectSpecularColor: {r: 0.069986515, g: 0.06463993, b: 0.06432112, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -443,7 +443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &446668068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -489,6 +489,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
@@ -514,6 +516,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944822089789178989, guid: f84bb1edb9ef6774f9739e168c281216,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3944822089789178986, guid: f84bb1edb9ef6774f9739e168c281216,
         type: 3}
@@ -970,6 +977,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 4001349207734289558, guid: ff02f02bd3eaa944694f110e96acd581,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff02f02bd3eaa944694f110e96acd581, type: 3}
 --- !u!1 &856383026 stripped
@@ -1011,6 +1023,18 @@ MonoBehaviour:
   maxY: 45
   sensX: 100
   sensY: 100
+--- !u!114 &856383029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856383026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f7ed4c7e5acd94aaae82d150529c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1072384994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,6 +1474,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 28d7cd6a6617d46e5a7d3eeb5d314a91, type: 2}
+    - target: {fileID: 1720138772015743718, guid: 431e2305fd7f1e941bb1fd4c15261986,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 431e2305fd7f1e941bb1fd4c15261986, type: 3}
 --- !u!1001 &1299485780
@@ -1571,7 +1600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1301180824
 Transform:
   m_ObjectHideFlags: 0
@@ -1777,6 +1806,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 28d7cd6a6617d46e5a7d3eeb5d314a91, type: 2}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062880844665365712, guid: d00bbbb756333db4ab35ab5cd9946336,
+        type: 3}
+      propertyPath: m_Emitting
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d00bbbb756333db4ab35ab5cd9946336, type: 3}
 --- !u!1 &1579099131
@@ -1856,12 +1915,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645329421}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43d33e7233b184278a643d92d6e1dbc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 35
+  Speed: 1
 --- !u!1 &1720211498
 GameObject:
   m_ObjectHideFlags: 0

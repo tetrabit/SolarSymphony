@@ -37,6 +37,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 #if UNITY_EDITOR
 using UnityEditor;
 
@@ -54,6 +55,8 @@ internal class Sequencer : SequencerBase
     #region FadeTarget enum
 
     #region Enumerations
+
+    public Planet planet;
 
     [Flags]
     public enum FadeTarget
@@ -801,8 +804,8 @@ internal class Sequencer : SequencerBase
                             if (_onBeatEventQueue == null) _onBeatEventQueue = new Queue<Action>();
                             _onBeatEventQueue.Enqueue(() =>
                             {
-                                onBeat(_currentStep, NumberOfSteps);
                                 Debug.Log("beat");
+                                onBeat(_currentStep, NumberOfSteps);
                             });
                         }
                     }
@@ -813,9 +816,17 @@ internal class Sequencer : SequencerBase
                     if (onAnyStep != null)
                     {
                         if (_onAnyStepEventQueue == null) _onAnyStepEventQueue = new Queue<Action>();
-                        _onAnyStepEventQueue.Enqueue(() => onAnyStep(_currentStep, NumberOfSteps));
+                        _onAnyStepEventQueue.Enqueue(() =>
+                        {
+                            Debug.Log("any step beat");
+                            onAnyStep(_currentStep, NumberOfSteps);
+                        });
                     }
                     if (log) Debug.Log("Tick: " + _currentStep + " (%" + GetPercentage() + ")");
+                    if(sequence[_currentStep] == true)
+                    {
+                        SolarSymphony.Instance.SolarSymphonyEvents.TriggerSound.Invoke(planet);
+                    }
                 }
             }
         }
