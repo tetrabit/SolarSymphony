@@ -278,7 +278,6 @@ GameObject:
   - component: {fileID: 42027231}
   - component: {fileID: 42027230}
   - component: {fileID: 42027229}
-  - component: {fileID: 42027232}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -347,7 +346,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 42027230}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1821863108}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -389,18 +388,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42027227}
   m_CullTransparentMesh: 0
---- !u!114 &42027232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42027227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &46909520
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +595,6 @@ GameObject:
   - component: {fileID: 62060163}
   - component: {fileID: 62060162}
   - component: {fileID: 62060161}
-  - component: {fileID: 62060164}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -719,18 +705,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62060159}
   m_CullTransparentMesh: 0
---- !u!114 &62060164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62060159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &66034838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +987,6 @@ GameObject:
   - component: {fileID: 78981066}
   - component: {fileID: 78981065}
   - component: {fileID: 78981064}
-  - component: {fileID: 78981067}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -1082,7 +1055,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 78981065}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1592871804}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -1124,18 +1097,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78981062}
   m_CullTransparentMesh: 0
---- !u!114 &78981067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78981062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &85653281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1251,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 87020400}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 486000433}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -1575,7 +1536,6 @@ GameObject:
   - component: {fileID: 109892491}
   - component: {fileID: 109892490}
   - component: {fileID: 109892489}
-  - component: {fileID: 109892492}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -1644,7 +1604,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 109892490}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 332120728}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -1686,18 +1646,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109892487}
   m_CullTransparentMesh: 0
---- !u!114 &109892492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109892487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &129517855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,7 +1658,6 @@ GameObject:
   - component: {fileID: 129517859}
   - component: {fileID: 129517858}
   - component: {fileID: 129517857}
-  - component: {fileID: 129517860}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -1779,7 +1726,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 129517858}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2031374679}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -1821,18 +1768,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129517855}
   m_CullTransparentMesh: 0
---- !u!114 &129517860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129517855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &130992216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,7 +1922,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 141916942}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 750570367}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -2053,7 +1988,6 @@ GameObject:
   - component: {fileID: 149236287}
   - component: {fileID: 149236286}
   - component: {fileID: 149236285}
-  - component: {fileID: 149236288}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -2122,7 +2056,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 149236286}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1105748104}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -2164,18 +2098,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149236283}
   m_CullTransparentMesh: 0
---- !u!114 &149236288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149236283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &157136303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,7 +2252,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 160259143}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 976066547}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -2542,7 +2464,6 @@ GameObject:
   - component: {fileID: 173624067}
   - component: {fileID: 173624066}
   - component: {fileID: 173624065}
-  - component: {fileID: 173624068}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -2611,7 +2532,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 173624066}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1149757969}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -2653,18 +2574,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173624063}
   m_CullTransparentMesh: 0
---- !u!114 &173624068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173624063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &179589351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2708,6 @@ GameObject:
   - component: {fileID: 187176218}
   - component: {fileID: 187176217}
   - component: {fileID: 187176216}
-  - component: {fileID: 187176219}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -2910,18 +2818,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187176214}
   m_CullTransparentMesh: 0
---- !u!114 &187176219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187176214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &201701220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,7 +2830,6 @@ GameObject:
   - component: {fileID: 201701224}
   - component: {fileID: 201701223}
   - component: {fileID: 201701222}
-  - component: {fileID: 201701225}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -3045,18 +2940,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201701220}
   m_CullTransparentMesh: 0
---- !u!114 &201701225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201701220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &227558487
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,7 +3025,6 @@ GameObject:
   - component: {fileID: 241708255}
   - component: {fileID: 241708254}
   - component: {fileID: 241708253}
-  - component: {fileID: 241708256}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -3211,7 +3093,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 241708254}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 347255693}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -3253,18 +3135,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241708251}
   m_CullTransparentMesh: 0
---- !u!114 &241708256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241708251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &245075000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,7 +4015,6 @@ GameObject:
   - component: {fileID: 334641365}
   - component: {fileID: 334641364}
   - component: {fileID: 334641363}
-  - component: {fileID: 334641366}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -4214,7 +4083,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 334641364}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 906756301}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -4256,18 +4125,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334641361}
   m_CullTransparentMesh: 0
---- !u!114 &334641366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334641361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &337973892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,7 +4356,6 @@ GameObject:
   - component: {fileID: 366397475}
   - component: {fileID: 366397474}
   - component: {fileID: 366397473}
-  - component: {fileID: 366397476}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -4610,18 +4466,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366397471}
   m_CullTransparentMesh: 0
---- !u!114 &366397476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366397471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &372792371
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,7 +4697,6 @@ GameObject:
   - component: {fileID: 385026243}
   - component: {fileID: 385026242}
   - component: {fileID: 385026241}
-  - component: {fileID: 385026244}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -4964,18 +4807,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385026239}
   m_CullTransparentMesh: 0
---- !u!114 &385026244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385026239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &395631276
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,7 +4961,6 @@ GameObject:
   - component: {fileID: 410759106}
   - component: {fileID: 410759105}
   - component: {fileID: 410759104}
-  - component: {fileID: 410759107}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -5199,7 +5029,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 410759105}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2139075234}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -5241,18 +5071,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410759102}
   m_CullTransparentMesh: 0
---- !u!114 &410759107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410759102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &413003944
 GameObject:
   m_ObjectHideFlags: 0
@@ -6020,7 +5838,6 @@ GameObject:
   - component: {fileID: 496369931}
   - component: {fileID: 496369930}
   - component: {fileID: 496369929}
-  - component: {fileID: 496369932}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -6131,18 +5948,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496369927}
   m_CullTransparentMesh: 0
---- !u!114 &496369932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496369927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &499532507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6155,7 +5960,6 @@ GameObject:
   - component: {fileID: 499532511}
   - component: {fileID: 499532510}
   - component: {fileID: 499532509}
-  - component: {fileID: 499532512}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -6224,7 +6028,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 499532510}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1977472384}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -6266,18 +6070,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499532507}
   m_CullTransparentMesh: 0
---- !u!114 &499532512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499532507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &499788744
 GameObject:
   m_ObjectHideFlags: 0
@@ -6582,7 +6374,6 @@ GameObject:
   - component: {fileID: 513056036}
   - component: {fileID: 513056035}
   - component: {fileID: 513056034}
-  - component: {fileID: 513056037}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -6651,7 +6442,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 513056035}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1727972395}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -6693,18 +6484,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513056032}
   m_CullTransparentMesh: 0
---- !u!114 &513056037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513056032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &526615657
 GameObject:
   m_ObjectHideFlags: 0
@@ -6717,7 +6496,6 @@ GameObject:
   - component: {fileID: 526615661}
   - component: {fileID: 526615660}
   - component: {fileID: 526615659}
-  - component: {fileID: 526615662}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -6786,7 +6564,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 526615660}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1650119948}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -6828,18 +6606,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526615657}
   m_CullTransparentMesh: 0
---- !u!114 &526615662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526615657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &540558591
 GameObject:
   m_ObjectHideFlags: 0
@@ -6852,7 +6618,6 @@ GameObject:
   - component: {fileID: 540558595}
   - component: {fileID: 540558594}
   - component: {fileID: 540558593}
-  - component: {fileID: 540558596}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -6921,7 +6686,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 540558594}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1418315859}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -6963,18 +6728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540558591}
   m_CullTransparentMesh: 0
---- !u!114 &540558596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540558591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &544274898
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,7 +6740,6 @@ GameObject:
   - component: {fileID: 544274902}
   - component: {fileID: 544274901}
   - component: {fileID: 544274900}
-  - component: {fileID: 544274903}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -7056,7 +6808,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 544274901}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 851390256}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -7098,18 +6850,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544274898}
   m_CullTransparentMesh: 0
---- !u!114 &544274903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544274898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &555276484
 GameObject:
   m_ObjectHideFlags: 0
@@ -7122,7 +6862,6 @@ GameObject:
   - component: {fileID: 555276488}
   - component: {fileID: 555276487}
   - component: {fileID: 555276486}
-  - component: {fileID: 555276489}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -7191,7 +6930,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 555276487}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1811284459}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -7233,18 +6972,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555276484}
   m_CullTransparentMesh: 0
---- !u!114 &555276489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555276484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &565338576
 GameObject:
   m_ObjectHideFlags: 0
@@ -7257,7 +6984,6 @@ GameObject:
   - component: {fileID: 565338580}
   - component: {fileID: 565338579}
   - component: {fileID: 565338578}
-  - component: {fileID: 565338581}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -7326,7 +7052,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 565338579}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 167702685}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -7368,18 +7094,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565338576}
   m_CullTransparentMesh: 0
---- !u!114 &565338581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565338576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &565413311
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,7 +7179,6 @@ GameObject:
   - component: {fileID: 571956826}
   - component: {fileID: 571956825}
   - component: {fileID: 571956824}
-  - component: {fileID: 571956827}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -7576,18 +7289,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571956822}
   m_CullTransparentMesh: 0
---- !u!114 &571956827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571956822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &576784177
 GameObject:
   m_ObjectHideFlags: 0
@@ -7600,7 +7301,6 @@ GameObject:
   - component: {fileID: 576784181}
   - component: {fileID: 576784180}
   - component: {fileID: 576784179}
-  - component: {fileID: 576784182}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -7669,7 +7369,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 576784180}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1802344953}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -7711,18 +7411,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576784177}
   m_CullTransparentMesh: 0
---- !u!114 &576784182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576784177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &580960369
 GameObject:
   m_ObjectHideFlags: 0
@@ -8027,7 +7715,6 @@ GameObject:
   - component: {fileID: 643714316}
   - component: {fileID: 643714315}
   - component: {fileID: 643714314}
-  - component: {fileID: 643714317}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -8096,7 +7783,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 643714315}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1054307041}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -8138,18 +7825,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643714312}
   m_CullTransparentMesh: 0
---- !u!114 &643714317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 643714312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &648744244
 GameObject:
   m_ObjectHideFlags: 0
@@ -8585,7 +8260,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 698968449}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 467561408}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -8651,7 +8326,6 @@ GameObject:
   - component: {fileID: 708321490}
   - component: {fileID: 708321489}
   - component: {fileID: 708321488}
-  - component: {fileID: 708321491}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -8720,7 +8394,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 708321489}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 648744246}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -8762,18 +8436,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708321486}
   m_CullTransparentMesh: 0
---- !u!114 &708321491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708321486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &716418931
 GameObject:
   m_ObjectHideFlags: 0
@@ -9056,7 +8718,6 @@ GameObject:
   - component: {fileID: 737646269}
   - component: {fileID: 737646268}
   - component: {fileID: 737646267}
-  - component: {fileID: 737646270}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -9125,7 +8786,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 737646268}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1418321324}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -9167,18 +8828,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737646265}
   m_CullTransparentMesh: 0
---- !u!114 &737646270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737646265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &750570365
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,7 +9182,6 @@ GameObject:
   - component: {fileID: 789290115}
   - component: {fileID: 789290114}
   - component: {fileID: 789290113}
-  - component: {fileID: 789290116}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -9644,18 +9292,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789290111}
   m_CullTransparentMesh: 0
---- !u!114 &789290116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789290111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &793754077
 GameObject:
   m_ObjectHideFlags: 0
@@ -9934,7 +9570,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 808085754}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 968626715}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -10000,7 +9636,6 @@ GameObject:
   - component: {fileID: 815801524}
   - component: {fileID: 815801523}
   - component: {fileID: 815801522}
-  - component: {fileID: 815801525}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -10069,7 +9704,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 815801523}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 917910970}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -10111,18 +9746,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815801520}
   m_CullTransparentMesh: 0
---- !u!114 &815801525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815801520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &815837777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10281,7 +9904,6 @@ GameObject:
   - component: {fileID: 826843278}
   - component: {fileID: 826843277}
   - component: {fileID: 826843276}
-  - component: {fileID: 826843279}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -10350,7 +9972,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 826843277}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2068246379}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -10392,18 +10014,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826843274}
   m_CullTransparentMesh: 0
---- !u!114 &826843279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826843274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &839959097
 GameObject:
   m_ObjectHideFlags: 0
@@ -10662,7 +10272,6 @@ GameObject:
   - component: {fileID: 852892497}
   - component: {fileID: 852892496}
   - component: {fileID: 852892495}
-  - component: {fileID: 852892498}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -10731,7 +10340,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 852892496}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 380870757}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -10773,18 +10382,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852892493}
   m_CullTransparentMesh: 0
---- !u!114 &852892498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852892493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &854181505
 GameObject:
   m_ObjectHideFlags: 0
@@ -10897,7 +10494,6 @@ GameObject:
   - component: {fileID: 854744862}
   - component: {fileID: 854744861}
   - component: {fileID: 854744860}
-  - component: {fileID: 854744863}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -10966,7 +10562,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 854744861}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1590952484}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -11008,18 +10604,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854744858}
   m_CullTransparentMesh: 0
---- !u!114 &854744863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854744858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &870803305
 GameObject:
   m_ObjectHideFlags: 0
@@ -11398,7 +10982,6 @@ GameObject:
   - component: {fileID: 909190804}
   - component: {fileID: 909190803}
   - component: {fileID: 909190802}
-  - component: {fileID: 909190805}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -11509,18 +11092,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909190800}
   m_CullTransparentMesh: 0
---- !u!114 &909190805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909190800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &909449840
 GameObject:
   m_ObjectHideFlags: 0
@@ -11533,7 +11104,6 @@ GameObject:
   - component: {fileID: 909449844}
   - component: {fileID: 909449843}
   - component: {fileID: 909449842}
-  - component: {fileID: 909449845}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -11602,7 +11172,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 909449843}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 372792373}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -11644,18 +11214,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909449840}
   m_CullTransparentMesh: 0
---- !u!114 &909449845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909449840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &915180947
 GameObject:
   m_ObjectHideFlags: 0
@@ -11883,7 +11441,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 938009372}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1230333898}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -11949,7 +11507,6 @@ GameObject:
   - component: {fileID: 949265188}
   - component: {fileID: 949265187}
   - component: {fileID: 949265186}
-  - component: {fileID: 949265189}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -12018,7 +11575,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 949265187}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 157136305}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -12060,18 +11617,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949265184}
   m_CullTransparentMesh: 0
---- !u!114 &949265189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949265184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &950815795
 GameObject:
   m_ObjectHideFlags: 0
@@ -12084,7 +11629,6 @@ GameObject:
   - component: {fileID: 950815799}
   - component: {fileID: 950815798}
   - component: {fileID: 950815797}
-  - component: {fileID: 950815800}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -12153,7 +11697,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 499532510}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2076105004}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -12195,18 +11739,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950815795}
   m_CullTransparentMesh: 0
---- !u!114 &950815800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950815795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &965142257
 GameObject:
   m_ObjectHideFlags: 0
@@ -12219,7 +11751,6 @@ GameObject:
   - component: {fileID: 965142261}
   - component: {fileID: 965142260}
   - component: {fileID: 965142259}
-  - component: {fileID: 965142262}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -12288,7 +11819,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 965142260}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 621473143}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -12330,18 +11861,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965142257}
   m_CullTransparentMesh: 0
---- !u!114 &965142262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965142257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &966282711
 GameObject:
   m_ObjectHideFlags: 0
@@ -12695,7 +12214,6 @@ GameObject:
   - component: {fileID: 1002173077}
   - component: {fileID: 1002173076}
   - component: {fileID: 1002173075}
-  - component: {fileID: 1002173078}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -12764,7 +12282,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1002173076}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 623565429}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -12806,18 +12324,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002173073}
   m_CullTransparentMesh: 0
---- !u!114 &1002173078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002173073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1005503694
 GameObject:
   m_ObjectHideFlags: 0
@@ -12903,7 +12409,6 @@ GameObject:
   - component: {fileID: 1017392446}
   - component: {fileID: 1017392445}
   - component: {fileID: 1017392444}
-  - component: {fileID: 1017392447}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -12972,7 +12477,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1017392445}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1983594561}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -13014,18 +12519,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017392442}
   m_CullTransparentMesh: 0
---- !u!114 &1017392447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017392442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1027136771
 GameObject:
   m_ObjectHideFlags: 0
@@ -13107,7 +12600,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1027136774}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 695810973}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -13295,7 +12788,6 @@ GameObject:
   - component: {fileID: 1038474319}
   - component: {fileID: 1038474318}
   - component: {fileID: 1038474317}
-  - component: {fileID: 1038474320}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -13364,7 +12856,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1038474318}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1719671397}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -13406,18 +12898,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038474315}
   m_CullTransparentMesh: 0
---- !u!114 &1038474320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038474315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1054307039
 GameObject:
   m_ObjectHideFlags: 0
@@ -13649,7 +13129,6 @@ GameObject:
   - component: {fileID: 1095352768}
   - component: {fileID: 1095352767}
   - component: {fileID: 1095352766}
-  - component: {fileID: 1095352769}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -13718,7 +13197,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1095352767}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1667131797}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -13760,18 +13239,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095352764}
   m_CullTransparentMesh: 0
---- !u!114 &1095352769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095352764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1099699468
 GameObject:
   m_ObjectHideFlags: 0
@@ -13784,7 +13251,6 @@ GameObject:
   - component: {fileID: 1099699472}
   - component: {fileID: 1099699471}
   - component: {fileID: 1099699470}
-  - component: {fileID: 1099699473}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -13853,7 +13319,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1099699471}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1797264513}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -13895,18 +13361,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099699468}
   m_CullTransparentMesh: 0
---- !u!114 &1099699473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099699468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1103035522
 GameObject:
   m_ObjectHideFlags: 0
@@ -13988,7 +13442,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1103035525}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1951437032}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15069,7 +14523,6 @@ GameObject:
   - component: {fileID: 1117533722}
   - component: {fileID: 1117533721}
   - component: {fileID: 1117533720}
-  - component: {fileID: 1117533723}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -15138,7 +14591,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1117533721}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 491215256}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15180,18 +14633,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117533718}
   m_CullTransparentMesh: 0
---- !u!114 &1117533723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117533718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1130352388
 GameObject:
   m_ObjectHideFlags: 0
@@ -15204,7 +14645,6 @@ GameObject:
   - component: {fileID: 1130352392}
   - component: {fileID: 1130352391}
   - component: {fileID: 1130352390}
-  - component: {fileID: 1130352393}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -15273,7 +14713,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1130352391}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1902855011}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15315,18 +14755,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130352388}
   m_CullTransparentMesh: 0
---- !u!114 &1130352393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130352388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1139172974
 GameObject:
   m_ObjectHideFlags: 0
@@ -15412,7 +14840,6 @@ GameObject:
   - component: {fileID: 1144771744}
   - component: {fileID: 1144771743}
   - component: {fileID: 1144771742}
-  - component: {fileID: 1144771745}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -15481,7 +14908,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1144771743}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1693650551}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15523,18 +14950,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144771740}
   m_CullTransparentMesh: 0
---- !u!114 &1144771745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144771740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1149757967
 GameObject:
   m_ObjectHideFlags: 0
@@ -15693,7 +15108,6 @@ GameObject:
   - component: {fileID: 1156988492}
   - component: {fileID: 1156988491}
   - component: {fileID: 1156988490}
-  - component: {fileID: 1156988493}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -15762,7 +15176,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1156988491}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 73252135}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15804,18 +15218,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156988488}
   m_CullTransparentMesh: 0
---- !u!114 &1156988493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156988488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1164107427
 GameObject:
   m_ObjectHideFlags: 0
@@ -15828,7 +15230,6 @@ GameObject:
   - component: {fileID: 1164107431}
   - component: {fileID: 1164107430}
   - component: {fileID: 1164107429}
-  - component: {fileID: 1164107432}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -15897,7 +15298,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1164107430}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 479305527}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -15939,18 +15340,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164107427}
   m_CullTransparentMesh: 0
---- !u!114 &1164107432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164107427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1168752991
 GameObject:
   m_ObjectHideFlags: 0
@@ -16105,7 +15494,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1169814675}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 512966141}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -16171,7 +15560,6 @@ GameObject:
   - component: {fileID: 1174751253}
   - component: {fileID: 1174751252}
   - component: {fileID: 1174751251}
-  - component: {fileID: 1174751254}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -16282,18 +15670,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174751249}
   m_CullTransparentMesh: 0
---- !u!114 &1174751254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174751249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1179838017
 GameObject:
   m_ObjectHideFlags: 0
@@ -16349,7 +15725,6 @@ GameObject:
   - component: {fileID: 1196773484}
   - component: {fileID: 1196773483}
   - component: {fileID: 1196773482}
-  - component: {fileID: 1196773485}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -16418,7 +15793,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1196773483}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1201544381}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -16460,18 +15835,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196773480}
   m_CullTransparentMesh: 0
---- !u!114 &1196773485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1196773480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1198783997
 GameObject:
   m_ObjectHideFlags: 0
@@ -16484,7 +15847,6 @@ GameObject:
   - component: {fileID: 1198784001}
   - component: {fileID: 1198784000}
   - component: {fileID: 1198783999}
-  - component: {fileID: 1198784002}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -16553,7 +15915,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1198784000}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1577605303}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -16595,18 +15957,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198783997}
   m_CullTransparentMesh: 0
---- !u!114 &1198784002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198783997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1199359565
 GameObject:
   m_ObjectHideFlags: 0
@@ -16619,7 +15969,6 @@ GameObject:
   - component: {fileID: 1199359569}
   - component: {fileID: 1199359568}
   - component: {fileID: 1199359567}
-  - component: {fileID: 1199359570}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -16688,7 +16037,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1199359568}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2095354879}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -16730,18 +16079,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199359565}
   m_CullTransparentMesh: 0
---- !u!114 &1199359570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199359565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1201544379
 GameObject:
   m_ObjectHideFlags: 0
@@ -16873,7 +16210,6 @@ GameObject:
   - component: {fileID: 1209765537}
   - component: {fileID: 1209765536}
   - component: {fileID: 1209765535}
-  - component: {fileID: 1209765538}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -16942,7 +16278,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1209765536}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 496175847}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -16984,18 +16320,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209765533}
   m_CullTransparentMesh: 0
---- !u!114 &1209765538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209765533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1230333896
 GameObject:
   m_ObjectHideFlags: 0
@@ -17150,7 +16474,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1239068711}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1605968598}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -17363,7 +16687,6 @@ GameObject:
   - component: {fileID: 1248004043}
   - component: {fileID: 1248004042}
   - component: {fileID: 1248004041}
-  - component: {fileID: 1248004044}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -17432,7 +16755,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1248004042}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 295947849}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -17474,18 +16797,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248004039}
   m_CullTransparentMesh: 0
---- !u!114 &1248004044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248004039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1251625656
 GameObject:
   m_ObjectHideFlags: 0
@@ -17790,7 +17101,6 @@ GameObject:
   - component: {fileID: 1267872664}
   - component: {fileID: 1267872663}
   - component: {fileID: 1267872662}
-  - component: {fileID: 1267872665}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -17859,7 +17169,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1267872663}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1139172976}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -17901,18 +17211,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267872660}
   m_CullTransparentMesh: 0
---- !u!114 &1267872665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267872660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1268471174
 GameObject:
   m_ObjectHideFlags: 0
@@ -18246,7 +17544,6 @@ GameObject:
   - component: {fileID: 1286766798}
   - component: {fileID: 1286766797}
   - component: {fileID: 1286766796}
-  - component: {fileID: 1286766799}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -18315,7 +17612,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1286766797}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 2091464506}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -18357,18 +17654,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286766794}
   m_CullTransparentMesh: 0
---- !u!114 &1286766799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286766794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1289041880
 GameObject:
   m_ObjectHideFlags: 0
@@ -18381,7 +17666,6 @@ GameObject:
   - component: {fileID: 1289041884}
   - component: {fileID: 1289041883}
   - component: {fileID: 1289041882}
-  - component: {fileID: 1289041885}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -18492,18 +17776,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289041880}
   m_CullTransparentMesh: 0
---- !u!114 &1289041885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289041880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1291982375
 GameObject:
   m_ObjectHideFlags: 0
@@ -18516,7 +17788,6 @@ GameObject:
   - component: {fileID: 1291982379}
   - component: {fileID: 1291982378}
   - component: {fileID: 1291982377}
-  - component: {fileID: 1291982380}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -18585,7 +17856,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1291982378}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1111202897}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -18627,18 +17898,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291982375}
   m_CullTransparentMesh: 0
---- !u!114 &1291982380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291982375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1294620865
 GameObject:
   m_ObjectHideFlags: 0
@@ -19151,7 +18410,6 @@ GameObject:
   - component: {fileID: 1338873571}
   - component: {fileID: 1338873570}
   - component: {fileID: 1338873569}
-  - component: {fileID: 1338873572}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -19220,7 +18478,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1338873570}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1679083858}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -19262,18 +18520,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338873567}
   m_CullTransparentMesh: 0
---- !u!114 &1338873572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338873567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1343294838
 GameObject:
   m_ObjectHideFlags: 0
@@ -19359,7 +18605,6 @@ GameObject:
   - component: {fileID: 1344316964}
   - component: {fileID: 1344316963}
   - component: {fileID: 1344316962}
-  - component: {fileID: 1344316965}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -19428,7 +18673,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1344316963}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1506479591}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -19470,18 +18715,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344316960}
   m_CullTransparentMesh: 0
---- !u!114 &1344316965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344316960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1350963158
 GameObject:
   m_ObjectHideFlags: 0
@@ -19494,7 +18727,6 @@ GameObject:
   - component: {fileID: 1350963162}
   - component: {fileID: 1350963161}
   - component: {fileID: 1350963160}
-  - component: {fileID: 1350963163}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -19605,18 +18837,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350963158}
   m_CullTransparentMesh: 0
---- !u!114 &1350963163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1350963158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1358875783
 GameObject:
   m_ObjectHideFlags: 0
@@ -19820,7 +19040,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1361575197}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 108051679}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -20480,7 +19700,6 @@ GameObject:
   - component: {fileID: 1435580636}
   - component: {fileID: 1435580635}
   - component: {fileID: 1435580634}
-  - component: {fileID: 1435580637}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -20549,7 +19768,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1435580635}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1278329370}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -20591,18 +19810,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435580632}
   m_CullTransparentMesh: 0
---- !u!114 &1435580637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435580632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1448535577
 GameObject:
   m_ObjectHideFlags: 0
@@ -20885,7 +20092,6 @@ GameObject:
   - component: {fileID: 1471795591}
   - component: {fileID: 1471795590}
   - component: {fileID: 1471795589}
-  - component: {fileID: 1471795592}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -20954,7 +20160,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1471795590}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1324036162}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -20996,18 +20202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471795587}
   m_CullTransparentMesh: 0
---- !u!114 &1471795592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471795587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1473973355
 GameObject:
   m_ObjectHideFlags: 0
@@ -21381,7 +20575,6 @@ GameObject:
   - component: {fileID: 1500412246}
   - component: {fileID: 1500412245}
   - component: {fileID: 1500412244}
-  - component: {fileID: 1500412247}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -21450,7 +20643,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1500412245}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 337973894}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -21492,18 +20685,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500412242}
   m_CullTransparentMesh: 0
---- !u!114 &1500412247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500412242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1502999368
 GameObject:
   m_ObjectHideFlags: 0
@@ -21662,7 +20843,6 @@ GameObject:
   - component: {fileID: 1515904973}
   - component: {fileID: 1515904972}
   - component: {fileID: 1515904971}
-  - component: {fileID: 1515904974}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -21731,7 +20911,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1515904972}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 870803307}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -21773,18 +20953,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515904969}
   m_CullTransparentMesh: 0
---- !u!114 &1515904974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515904969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1516926753
 GameObject:
   m_ObjectHideFlags: 0
@@ -22017,7 +21185,6 @@ GameObject:
   - component: {fileID: 1548858606}
   - component: {fileID: 1548858605}
   - component: {fileID: 1548858604}
-  - component: {fileID: 1548858607}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -22086,7 +21253,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1548858605}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1270181494}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -22128,18 +21295,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548858602}
   m_CullTransparentMesh: 0
---- !u!114 &1548858607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548858602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1552944366
 GameObject:
   m_ObjectHideFlags: 0
@@ -22517,7 +21672,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1586070317}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1894768447}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -22729,7 +21884,6 @@ GameObject:
   - component: {fileID: 1601108560}
   - component: {fileID: 1601108559}
   - component: {fileID: 1601108558}
-  - component: {fileID: 1601108561}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -22840,18 +21994,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601108556}
   m_CullTransparentMesh: 0
---- !u!114 &1601108561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601108556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1601648543
 GameObject:
   m_ObjectHideFlags: 0
@@ -22864,7 +22006,6 @@ GameObject:
   - component: {fileID: 1601648547}
   - component: {fileID: 1601648546}
   - component: {fileID: 1601648545}
-  - component: {fileID: 1601648548}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -22933,7 +22074,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1601648546}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1244668072}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -22975,18 +22116,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601648543}
   m_CullTransparentMesh: 0
---- !u!114 &1601648548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601648543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1605402200
 GameObject:
   m_ObjectHideFlags: 0
@@ -22999,7 +22128,6 @@ GameObject:
   - component: {fileID: 1605402204}
   - component: {fileID: 1605402203}
   - component: {fileID: 1605402202}
-  - component: {fileID: 1605402205}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -23068,7 +22196,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1605402203}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 600684173}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -23110,18 +22238,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605402200}
   m_CullTransparentMesh: 0
---- !u!114 &1605402205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605402200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1605968596
 GameObject:
   m_ObjectHideFlags: 0
@@ -23324,7 +22440,6 @@ GameObject:
   - component: {fileID: 1610334406}
   - component: {fileID: 1610334405}
   - component: {fileID: 1610334404}
-  - component: {fileID: 1610334407}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -23393,7 +22508,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1610334405}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1343294840}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -23435,18 +22550,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610334402}
   m_CullTransparentMesh: 0
---- !u!114 &1610334407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610334402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1615371930
 GameObject:
   m_ObjectHideFlags: 0
@@ -23459,7 +22562,6 @@ GameObject:
   - component: {fileID: 1615371934}
   - component: {fileID: 1615371933}
   - component: {fileID: 1615371932}
-  - component: {fileID: 1615371935}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -23528,7 +22630,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1615371933}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 290423919}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -23570,18 +22672,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615371930}
   m_CullTransparentMesh: 0
---- !u!114 &1615371935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615371930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1620108140
 GameObject:
   m_ObjectHideFlags: 0
@@ -23594,7 +22684,6 @@ GameObject:
   - component: {fileID: 1620108144}
   - component: {fileID: 1620108143}
   - component: {fileID: 1620108142}
-  - component: {fileID: 1620108145}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -23663,7 +22752,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1620108143}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1364153603}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -23705,18 +22794,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620108140}
   m_CullTransparentMesh: 0
---- !u!114 &1620108145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620108140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1621563329
 GameObject:
   m_ObjectHideFlags: 0
@@ -23729,7 +22806,6 @@ GameObject:
   - component: {fileID: 1621563333}
   - component: {fileID: 1621563332}
   - component: {fileID: 1621563331}
-  - component: {fileID: 1621563334}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -23798,7 +22874,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1621563332}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1005503696}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -23840,18 +22916,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621563329}
   m_CullTransparentMesh: 0
---- !u!114 &1621563334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621563329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1640070800
 GameObject:
   m_ObjectHideFlags: 0
@@ -23937,7 +23001,6 @@ GameObject:
   - component: {fileID: 1649186673}
   - component: {fileID: 1649186672}
   - component: {fileID: 1649186671}
-  - component: {fileID: 1649186674}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -24006,7 +23069,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1649186672}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1640070802}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -24048,18 +23111,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649186669}
   m_CullTransparentMesh: 0
---- !u!114 &1649186674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649186669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1650119946
 GameObject:
   m_ObjectHideFlags: 0
@@ -24291,7 +23342,6 @@ GameObject:
   - component: {fileID: 1673431239}
   - component: {fileID: 1673431238}
   - component: {fileID: 1673431237}
-  - component: {fileID: 1673431240}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -24360,7 +23410,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1673431238}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1301089309}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -24402,18 +23452,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673431235}
   m_CullTransparentMesh: 0
---- !u!114 &1673431240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673431235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1679083856
 GameObject:
   m_ObjectHideFlags: 0
@@ -24499,7 +23537,6 @@ GameObject:
   - component: {fileID: 1679472249}
   - component: {fileID: 1679472248}
   - component: {fileID: 1679472247}
-  - component: {fileID: 1679472250}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -24610,18 +23647,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679472245}
   m_CullTransparentMesh: 0
---- !u!114 &1679472250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679472245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1683713302
 GameObject:
   m_ObjectHideFlags: 0
@@ -24634,7 +23659,6 @@ GameObject:
   - component: {fileID: 1683713306}
   - component: {fileID: 1683713305}
   - component: {fileID: 1683713304}
-  - component: {fileID: 1683713307}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -24703,7 +23727,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1683713305}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 720295498}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -24745,18 +23769,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683713302}
   m_CullTransparentMesh: 0
---- !u!114 &1683713307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683713302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1686221426
 GameObject:
   m_ObjectHideFlags: 0
@@ -24769,7 +23781,6 @@ GameObject:
   - component: {fileID: 1686221430}
   - component: {fileID: 1686221429}
   - component: {fileID: 1686221428}
-  - component: {fileID: 1686221431}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -24838,7 +23849,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1686221429}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 96135639}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -24880,18 +23891,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686221426}
   m_CullTransparentMesh: 0
---- !u!114 &1686221431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686221426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1693650549
 GameObject:
   m_ObjectHideFlags: 0
@@ -25060,7 +24059,6 @@ GameObject:
   - component: {fileID: 1702291170}
   - component: {fileID: 1702291169}
   - component: {fileID: 1702291168}
-  - component: {fileID: 1702291171}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -25129,7 +24127,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1702291169}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1168752993}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -25171,18 +24169,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702291166}
   m_CullTransparentMesh: 0
---- !u!114 &1702291171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702291166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1702507592
 GameObject:
   m_ObjectHideFlags: 0
@@ -25195,7 +24181,6 @@ GameObject:
   - component: {fileID: 1702507596}
   - component: {fileID: 1702507595}
   - component: {fileID: 1702507594}
-  - component: {fileID: 1702507597}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -25264,7 +24249,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1702507595}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1554762963}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -25306,18 +24291,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702507592}
   m_CullTransparentMesh: 0
---- !u!114 &1702507597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702507592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1703428785
 GameObject:
   m_ObjectHideFlags: 0
@@ -25403,7 +24376,6 @@ GameObject:
   - component: {fileID: 1704589996}
   - component: {fileID: 1704589995}
   - component: {fileID: 1704589994}
-  - component: {fileID: 1704589997}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -25514,18 +24486,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704589992}
   m_CullTransparentMesh: 0
---- !u!114 &1704589997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704589992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1719671395
 GameObject:
   m_ObjectHideFlags: 0
@@ -25684,7 +24644,6 @@ GameObject:
   - component: {fileID: 1730271906}
   - component: {fileID: 1730271905}
   - component: {fileID: 1730271904}
-  - component: {fileID: 1730271907}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -25753,7 +24712,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1730271905}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1830498375}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -25795,18 +24754,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730271902}
   m_CullTransparentMesh: 0
---- !u!114 &1730271907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730271902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1749902771
 GameObject:
   m_ObjectHideFlags: 0
@@ -25870,7 +24817,6 @@ GameObject:
   - component: {fileID: 1764591742}
   - component: {fileID: 1764591741}
   - component: {fileID: 1764591740}
-  - component: {fileID: 1764591743}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -25939,7 +24885,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1764591741}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1373620450}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -25981,18 +24927,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764591738}
   m_CullTransparentMesh: 0
---- !u!114 &1764591743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764591738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1766907060
 GameObject:
   m_ObjectHideFlags: 0
@@ -26147,7 +25081,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1774770045}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1274826253}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -26355,7 +25289,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1781476054}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 793754079}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -26567,7 +25501,6 @@ GameObject:
   - component: {fileID: 1806701450}
   - component: {fileID: 1806701449}
   - component: {fileID: 1806701448}
-  - component: {fileID: 1806701451}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -26636,7 +25569,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1806701449}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1155123684}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -26678,18 +25611,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806701446}
   m_CullTransparentMesh: 0
---- !u!114 &1806701451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806701446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1808094618
 GameObject:
   m_ObjectHideFlags: 0
@@ -26848,7 +25769,6 @@ GameObject:
   - component: {fileID: 1814148860}
   - component: {fileID: 1814148859}
   - component: {fileID: 1814148858}
-  - component: {fileID: 1814148861}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -26917,7 +25837,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1814148859}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 966282713}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -26959,18 +25879,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814148856}
   m_CullTransparentMesh: 0
---- !u!114 &1814148861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814148856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1821863106
 GameObject:
   m_ObjectHideFlags: 0
@@ -27129,7 +26037,6 @@ GameObject:
   - component: {fileID: 1826343632}
   - component: {fileID: 1826343631}
   - component: {fileID: 1826343630}
-  - component: {fileID: 1826343633}
   m_Layer: 5
   m_Name: Planet node (4)
   m_TagString: Untagged
@@ -27198,7 +26105,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1826343631}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1667235046}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -27240,18 +26147,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826343628}
   m_CullTransparentMesh: 0
---- !u!114 &1826343633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826343628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1829723265
 GameObject:
   m_ObjectHideFlags: 0
@@ -27264,7 +26159,6 @@ GameObject:
   - component: {fileID: 1829723269}
   - component: {fileID: 1829723268}
   - component: {fileID: 1829723267}
-  - component: {fileID: 1829723270}
   m_Layer: 5
   m_Name: Planet node (9)
   m_TagString: Untagged
@@ -27333,7 +26227,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1829723268}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1064987076}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -27375,18 +26269,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829723265}
   m_CullTransparentMesh: 0
---- !u!114 &1829723270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829723265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1830498373
 GameObject:
   m_ObjectHideFlags: 0
@@ -27472,7 +26354,6 @@ GameObject:
   - component: {fileID: 1834252981}
   - component: {fileID: 1834252980}
   - component: {fileID: 1834252979}
-  - component: {fileID: 1834252982}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -27541,7 +26422,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1834252980}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1861463227}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -27583,18 +26464,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834252977}
   m_CullTransparentMesh: 0
---- !u!114 &1834252982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834252977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1838884276
 GameObject:
   m_ObjectHideFlags: 0
@@ -27607,7 +26476,6 @@ GameObject:
   - component: {fileID: 1838884280}
   - component: {fileID: 1838884279}
   - component: {fileID: 1838884278}
-  - component: {fileID: 1838884281}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -27676,7 +26544,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1838884279}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 245075002}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -27718,18 +26586,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838884276}
   m_CullTransparentMesh: 0
---- !u!114 &1838884281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838884276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1855465589
 GameObject:
   m_ObjectHideFlags: 0
@@ -27892,7 +26748,6 @@ GameObject:
   - component: {fileID: 1875815577}
   - component: {fileID: 1875815576}
   - component: {fileID: 1875815575}
-  - component: {fileID: 1875815578}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -27961,7 +26816,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1875815576}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1530993570}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -28003,18 +26858,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875815573}
   m_CullTransparentMesh: 0
---- !u!114 &1875815578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875815573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1889400494
 GameObject:
   m_ObjectHideFlags: 0
@@ -28295,7 +27138,6 @@ GameObject:
   - component: {fileID: 1895309218}
   - component: {fileID: 1895309217}
   - component: {fileID: 1895309216}
-  - component: {fileID: 1895309219}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -28364,7 +27206,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1895309217}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 824964499}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -28406,18 +27248,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895309214}
   m_CullTransparentMesh: 0
---- !u!114 &1895309219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895309214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1902855009
 GameObject:
   m_ObjectHideFlags: 0
@@ -28503,7 +27333,6 @@ GameObject:
   - component: {fileID: 1907336852}
   - component: {fileID: 1907336851}
   - component: {fileID: 1907336850}
-  - component: {fileID: 1907336853}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -28572,7 +27401,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1907336851}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 74616318}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -28614,18 +27443,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907336848}
   m_CullTransparentMesh: 0
---- !u!114 &1907336853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907336848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1926234758
 GameObject:
   m_ObjectHideFlags: 0
@@ -29068,7 +27885,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1955415554}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1316320855}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -29203,7 +28020,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1976137951}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 85653283}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -29806,7 +28623,6 @@ GameObject:
   - component: {fileID: 2022319929}
   - component: {fileID: 2022319928}
   - component: {fileID: 2022319927}
-  - component: {fileID: 2022319930}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -29875,7 +28691,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2022319928}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 1255224742}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -29917,18 +28733,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022319925}
   m_CullTransparentMesh: 0
---- !u!114 &2022319930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2022319925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2027032820
 GameObject:
   m_ObjectHideFlags: 0
@@ -30063,7 +28867,6 @@ GameObject:
   - component: {fileID: 2028675031}
   - component: {fileID: 2028675030}
   - component: {fileID: 2028675029}
-  - component: {fileID: 2028675032}
   m_Layer: 5
   m_Name: Planet node (10)
   m_TagString: Untagged
@@ -30174,18 +28977,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028675027}
   m_CullTransparentMesh: 0
---- !u!114 &2028675032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028675027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2031374677
 GameObject:
   m_ObjectHideFlags: 0
@@ -30271,7 +29062,6 @@ GameObject:
   - component: {fileID: 2032704036}
   - component: {fileID: 2032704035}
   - component: {fileID: 2032704034}
-  - component: {fileID: 2032704037}
   m_Layer: 5
   m_Name: Planet node (3)
   m_TagString: Untagged
@@ -30340,7 +29130,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2032704035}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 725247739}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -30382,18 +29172,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032704032}
   m_CullTransparentMesh: 0
---- !u!114 &2032704037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032704032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2065767632
 GameObject:
   m_ObjectHideFlags: 0
@@ -30570,7 +29348,6 @@ GameObject:
   - component: {fileID: 2071223476}
   - component: {fileID: 2071223475}
   - component: {fileID: 2071223474}
-  - component: {fileID: 2071223477}
   m_Layer: 5
   m_Name: Planet node (8)
   m_TagString: Untagged
@@ -30639,7 +29416,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2071223475}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 165730549}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -30681,18 +29458,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071223472}
   m_CullTransparentMesh: 0
---- !u!114 &2071223477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071223472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2076105002
 GameObject:
   m_ObjectHideFlags: 0
@@ -30778,7 +29543,6 @@ GameObject:
   - component: {fileID: 2078282082}
   - component: {fileID: 2078282081}
   - component: {fileID: 2078282080}
-  - component: {fileID: 2078282083}
   m_Layer: 5
   m_Name: Planet node (2)
   m_TagString: Untagged
@@ -30847,7 +29611,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 2078282081}
   toggleTransition: 1
-  graphic: {fileID: 0}
+  graphic: {fileID: 878607781}
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
@@ -30889,18 +29653,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078282078}
   m_CullTransparentMesh: 0
---- !u!114 &2078282083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078282078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 226bf51bbc6965942ba1d097560a3fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2086754645
 GameObject:
   m_ObjectHideFlags: 0

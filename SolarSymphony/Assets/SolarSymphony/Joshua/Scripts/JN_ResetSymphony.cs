@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class JN_ResetSymphony : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
-    }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }
