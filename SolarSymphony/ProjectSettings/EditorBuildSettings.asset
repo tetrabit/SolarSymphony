@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SolarSymphony/Scenes/TitleScreen.unity
+    guid: 205b06cdbcf4ec544954d8c8909a2f94
+  - enabled: 1
+    path: Assets/SolarSymphony/Scenes/SolarSymphony.unity
+    guid: db17f385949bb7c41b35fd821bbfaab9
+  - enabled: 1
+    path: Assets/SolarSymphony/Scenes/CreditsScreen.unity
+    guid: 9427af563cea52446ade0fb75f05faa4
   m_configObjects: {}
