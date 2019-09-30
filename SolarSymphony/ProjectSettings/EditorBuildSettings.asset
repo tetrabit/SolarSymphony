@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SolarSymphony/Scenes/TitleScreen.unity
     guid: 205b06cdbcf4ec544954d8c8909a2f94
-  - enabled: 1
+  - enabled: 0
     path: Assets/SolarSymphony/Scenes/SolarSymphony.unity
     guid: db17f385949bb7c41b35fd821bbfaab9
   - enabled: 1
     path: Assets/SolarSymphony/Scenes/CreditsScreen.unity
     guid: 9427af563cea52446ade0fb75f05faa4
+  - enabled: 0
+    path: Assets/SolarSymphony/Scenes/JN_UI.unity
+    guid: dec71b06fc539894fa662ea3e8c86a76
+  - enabled: 1
+    path: Assets/SolarSymphony/Scenes/MergeScene.unity
+    guid: 60f9d5f2009d0054fbf06b1a2b9a9a5a
   m_configObjects: {}

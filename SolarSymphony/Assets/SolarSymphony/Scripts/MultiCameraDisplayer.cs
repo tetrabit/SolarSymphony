@@ -8,10 +8,9 @@ public class MultiCameraDisplayer : MonoBehaviour
     void Start()
     {
         //Get Main Camera
-        myCams[0] = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        myCams[0] = GameObject.FindGameObjectWithTag("SecondaryCamera").GetComponent<Camera>();
+        myCams[1] = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
        
-        //Find All other Cameras
-        myCams[1] = GameObject.Find("Camera2").GetComponent<Camera>();
 
         //Call function when new display is connected
         Display.onDisplaysUpdated += OnDisplaysUpdated;
@@ -28,6 +27,8 @@ public class MultiCameraDisplayer : MonoBehaviour
             myCams[i].targetDisplay = i; //Set the Display in which to render the camera to
             Display.displays[i].Activate(); //Enable the display
         }
+
+
     }
 
     void OnDisplaysUpdated()

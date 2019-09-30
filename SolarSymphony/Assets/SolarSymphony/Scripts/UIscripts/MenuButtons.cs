@@ -15,7 +15,7 @@ public class MenuButtons : MonoBehaviour
     public void PlayGame()
     {
         animator.SetTrigger("fade_out");
-        _sceneToSwitch = "SolarSymphony";
+        _sceneToSwitch = "MergeScene";
         _switchScene = true;
     }
 

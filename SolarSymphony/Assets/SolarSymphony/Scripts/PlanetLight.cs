@@ -4,10 +4,10 @@ using UnityEngine;
 public class PlanetLight : MonoBehaviour
 {
     private float valToBeLerped = 0f;
-    private float speed = 10f;
+    private float speed = 20f;
     private float tParam = 0f;
     private float _intensityMin = 40f;
-    private float _intensityMax = 150f;
+    private float _intensityMax = 80f;
 
     [SerializeField]
     private Planet _planet;
@@ -17,13 +17,18 @@ public class PlanetLight : MonoBehaviour
 
     public Planet Planet { get => _planet; set => _planet = value; }
 
-    private SerializedObject halo;
+    private Component halo;
+
     void Start()
     {
-        halo = new SerializedObject(gameObject.GetComponent("Halo"));
-        halo.FindProperty("m_Size").floatValue = 40;
-        halo.ApplyModifiedProperties();
-        valToBeLerped = halo.FindProperty("m_Size").floatValue;
+        halo = gameObject.GetComponent("Halo");
+        Debug.Log(halo.GetType().GetProperty("size"));
+        halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
+        //halo.GetType().GetProperty("m_Size").SetValue(halo, 40, null);
+        //halo = new SerializedObject(gameObject.GetComponent("Halo"));
+        //halo.FindProperty("m_Size").floatValue = 40;
+        //halo.ApplyModifiedProperties();
+        //valToBeLerped = halo.FindProperty("m_Size").floatValue;
     }
 
     private void Update()
@@ -44,11 +49,14 @@ public class PlanetLight : MonoBehaviour
                 _lightEffect = false;
                 _lightEffectReverse = true;
                 tParam = 0f;
+                halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
             }
 
             //Debug.Log(valToBeLerped);
-            halo.FindProperty("m_Size").floatValue = valToBeLerped;
-            halo.ApplyModifiedProperties();
+            halo.GetType().GetProperty("m_Size").SetValue(halo, valToBeLerped);
+
+            //halo.FindProperty("m_Size").floatValue = valToBeLerped;
+            //halo.ApplyModifiedProperties();
         }
 
         if (_lightEffectReverse)
@@ -63,10 +71,13 @@ public class PlanetLight : MonoBehaviour
             {
                 _lightEffect = false;
                 _lightEffectReverse = false;
+                halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
             }
 
-            halo.FindProperty("m_Size").floatValue = valToBeLerped;
-            halo.ApplyModifiedProperties();
+            //halo.FindProperty("m_Size").floatValue = valToBeLerped;
+            //halo.ApplyModifiedProperties();
+
+            halo.GetType().GetProperty("m_Size").SetValue(halo, valToBeLerped);
         }
     }
     public void TriggerLightEffect()

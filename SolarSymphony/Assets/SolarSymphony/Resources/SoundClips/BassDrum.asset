@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c445a0e871ff5d149bf5d340682eade1, type: 3}
   m_Name: BassDrum
   m_EditorClassIdentifier: 
-  _audioClip: {fileID: 8300000, guid: e7c503e7e4f8eb147b5fd624338d261c, type: 3}
+  _audioClip: {fileID: 8300000, guid: 66afd096e6201ba4e984447a4d086195, type: 3}
   _sound: 8
